@@ -7,7 +7,7 @@ namespace EV_Power_Calculation
     {
         public static void Main(string[] args)
         {
-            string version = "0.0.2 Dev";
+            string version = "29.4.2023Dev";
             
             Console.Clear();
             Console.WriteLine("EV Torque Calculator                                           Version " + version);
