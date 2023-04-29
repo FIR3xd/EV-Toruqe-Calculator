@@ -1,0 +1,6 @@
+/Users/sebastienslavik/RiderProjects/EV Power Calculation/EV Torque Calculator/bin/Release/EV_Power_Calculation.exe
+/Users/sebastienslavik/RiderProjects/EV Power Calculation/EV Torque Calculator/bin/Release/EV_Power_Calculation.pdb
+/Users/sebastienslavik/RiderProjects/EV Power Calculation/EV Torque Calculator/obj/Release/EV Torque Calculator.csproj.AssemblyReference.cache
+/Users/sebastienslavik/RiderProjects/EV Power Calculation/EV Torque Calculator/obj/Release/EV Torque Calculator.csproj.CoreCompileInputs.cache
+/Users/sebastienslavik/RiderProjects/EV Power Calculation/EV Torque Calculator/obj/Release/EV_Power_Calculation.exe
+/Users/sebastienslavik/RiderProjects/EV Power Calculation/EV Torque Calculator/obj/Release/EV_Power_Calculation.pdb
