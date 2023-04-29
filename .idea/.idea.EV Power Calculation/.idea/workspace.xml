@@ -4,20 +4,20 @@
     <projectFile>EV Power Calculation/EV Power Calculation.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ac6ecfc-f0e7-46bf-ba3d-34411a4503ae" name="Changes" comment="V 0.0.2">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EV Torque Calculator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EV Torque Calculator/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EV Torque Calculator/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EV Torque Calculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EV Torque Calculator.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EV Torque Calculator/obj/Release/EV Torque Calculator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EV Torque Calculator/obj/Release/EV Torque Calculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EV Torque Calculator/obj/Release/EV Torque Calculator.csproj.FileListAbsolute.txt" afterDir="false" />
+    <list default="true" id="3ac6ecfc-f0e7-46bf-ba3d-34411a4503ae" name="Changes" comment="V0.0.2 Public">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EV Power Calculation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EV Power Calculation/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/EV Torque Calculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "WinFormsDesignerOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;WinFormsDesignerOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/sebastienslavik/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/Users/sebastienslavik/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/Users/sebastienslavik/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/sebastienslavik/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/sebastienslavik/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/sebastienslavik/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EV Power Calculation" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -90,7 +90,7 @@
       <workItem from="1682171871413" duration="739000" />
       <workItem from="1682588003753" duration="5885000" />
       <workItem from="1682675196618" duration="77000" />
-      <workItem from="1682758049670" duration="302000" />
+      <workItem from="1682758049670" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="V 0.0.2">
       <created>1682758339545</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682758339545</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V0.0.2 Public">
+      <created>1682758548442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682758548442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,11 +114,23 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="V 0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="V 0.0.2" />
+    <MESSAGE value="V0.0.2 Public" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.0.2 Public" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
