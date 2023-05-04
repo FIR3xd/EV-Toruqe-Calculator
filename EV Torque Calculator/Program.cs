@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Globalization;
 
 namespace EV_Power_Calculation
@@ -7,7 +8,7 @@ namespace EV_Power_Calculation
     {
         public static void Main(string[] args)
         {
-            string version = "30.4.2023Dev";
+            string version = "4.5.2023Dev";
 
             Console.WriteLine($"EV Torque Calculator\nVersion {version}");
             Console.WriteLine("___________________________________");
@@ -31,17 +32,17 @@ namespace EV_Power_Calculation
                 }
 
                 Console.Write("Enter the desired power: ");
-                double power;
-                while (!double.TryParse(Console.ReadLine(), NumberStyles.Float, CultureInfo.InvariantCulture, out power))
+                float power;
+                while (!float.TryParse(Console.ReadLine(), NumberStyles.Float, CultureInfo.InvariantCulture, out power))
                 {
                     Console.WriteLine("Invalid input. Please enter a valid number.");
                 }
 
-                double powerInKw = convertToKw ? power * 0.7457 : power;
+                float powerInKw = convertToKw ? power * 0.7457f : power;
 
                 Console.Write("Enter the maximum torque (in Nm): ");
-                double maxTorque;
-                while (!double.TryParse(Console.ReadLine(), NumberStyles.Float, CultureInfo.InvariantCulture, out maxTorque))
+                float maxTorque;
+                while (!float.TryParse(Console.ReadLine(), NumberStyles.Float, CultureInfo.InvariantCulture, out maxTorque))
                 {
                     Console.WriteLine("Invalid input. Please enter a valid number.");
                 }
@@ -62,17 +63,21 @@ namespace EV_Power_Calculation
 
                 Console.WriteLine("___________________________________");
                 Console.WriteLine("[\"rpm\", \"torque\"]");
+
+                float powerConstant = powerInKw * 9549.297f;
+                StringBuilder sb = new StringBuilder();
                 for (int rpm = 0; rpm <= maxrpm; rpm += curvequality)
                 {
-                    double torque = powerInKw * 9549.297 / rpm;
+                    float torque = powerConstant / rpm;
                     if (torque > maxTorque) {torque = maxTorque;}
-                    Console.WriteLine($"[{rpm}, {torque.ToString("0.0000", CultureInfo.InvariantCulture)}]");
+                    sb.Append($"[{rpm}, {torque.ToString("0.0000", CultureInfo.InvariantCulture)}]\n");
                 }
+                Console.Write(sb.ToString());
 
                 Console.WriteLine("___________________________________");
                 Console.Write("Do you want to calculate again? [y/n]");
                 cont = Console.ReadLine().ToLower();
-            }
+}
 
         }   
     }
